@@ -4,12 +4,14 @@ public class BasicMath {
         int b = 4+a*2;
         int c = b+a - 1;
         int d = c % b;
+        int e = d/b;
 
         System.out.println("Podane liczby wynoszą:");
         System.out.println("a = " + a);
         System.out.println("b = " + b);
         System.out.println("c = " + c);
         System.out.println("d = " + d);
+        System.out.println("e = " + e);
         dodaj(5, 12);
 
     }
